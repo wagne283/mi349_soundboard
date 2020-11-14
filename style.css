@@ -1,0 +1,46 @@
+html {
+    background: #12171c;
+}
+
+body {
+    padding: 40px;
+    margin: 40px;
+    background: #34393e;
+    border-radius: 20px;
+}
+
+header, h2 {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.instrument {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#hideNseek {
+    outline: 0;
+    color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    cursor: pointer;
+}
+
+.drum {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    border-color: transparent;
+    background-color: #ccc;
+}
+
+.drum:hover {
+    outline: 2px solid #ccc;
+    outline-offset: 2px;
+}

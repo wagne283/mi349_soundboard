@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soundboard</title>
+</head>
+<body>
+    <header>
+        <h1>Soundboard</h1>
+        <button type="button" id="hideNseek" onclick="playAudio('crashD')">
+            Crash D
+            <audio preload="auto" src="judd-madden-drum-samples/Crash D 1.mp3" id="crashD"></audio>
+        </button>
+    </header>
+    <main>
+        <h2>Drums</h2>
+        <div class="instrument">
+            <button type="button" class="drum" onclick="playAudio('china')">
+                China
+                <audio preload="auto" src="judd-madden-drum-samples/China 1.wav" id="china"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('crashA')">
+                Crash A
+                <audio preload="auto" src="judd-madden-drum-samples/Crash A 1.wav" id="crashA"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('crashB')">
+                Crash B
+                <audio preload="auto" src="judd-madden-drum-samples/Crash B 1.wav" id="crashB"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('crashC')">
+                Crash C
+                <audio preload="auto" src="judd-madden-drum-samples/Crash C 1.wav" id="crashC"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('hiHat')">
+                Hi Hat
+                <audio preload="auto" src="judd-madden-drum-samples/Hi Hat 1.wav" id="hiHat"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('kick')">
+                Kick
+                <audio preload="auto" src="judd-madden-drum-samples/Kick 1.wav" id="kick"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('cymbal')">
+                Ride Cymbal
+                <audio preload="auto" src="judd-madden-drum-samples/Ride Cymbal 1.wav" id="cymbal"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('snare')">
+                Snare
+                <audio preload="auto" src="judd-madden-drum-samples/Snare 1.wav" id="snare"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('tFloor')">
+                Tom Floor
+                <audio preload="auto" src="judd-madden-drum-samples/Tom Floor 1.wav" id="tFloor"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('tMid')">
+                Tom Mid
+                <audio preload="auto" src="judd-madden-drum-samples/Tom Mid 1.wav" id="tMid"></audio>
+            </button>
+            <button type="button" class="drum" onclick="playAudio('tHigh')">
+                Tom High
+                <audio preload="auto" src="judd-madden-drum-samples/Tom High 1.wav" id="tHigh"></audio>
+            </button>
+        </div>
+    </main>
+    <script src="soundboard.js"></script>
+</body>
+</html>
